@@ -8,7 +8,7 @@
       Year_Birth : Customer's birth year
 
        Education : Customer's education level
-
+       
   Marital_Status : Customer's marital status
 
           Income : Customer's yearly household income
@@ -26,13 +26,13 @@
 ### Products
 
         MntWines : Amount spent on wine in last 2 years
-
+        
        MntFruits : Amount spent on fruits in last 2 years
-
+       
  MntMeatProducts : Amount spent on meat in last 2 years
-
+ 
  MntFishProducts : Amount spent on fish in last 2 years
-
+ 
 MntSweetProducts : Amount spent on sweets in last 2 years
 
     MntGoldProds : Amount spent on gold in last 2 years
@@ -56,9 +56,9 @@ AcceptedCmp5: 1 if customer accepted the offer in the 5th campaign, 0 otherwise
 ### Place
 
     NumWebPurchases : Number of purchases made through the company’s website
-
+    
 NumCatalogPurchases : Number of purchases made using a catalogue
 
   NumStorePurchases : Number of purchases made directly in stores
-
+  
   NumWebVisitsMonth : Number of visits to company’s website in the last month
