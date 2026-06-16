@@ -1,64 +1,137 @@
-# Segmentation-of-Customers-Groups-with-ML
+# Customer Segmentation using Machine Learning
 
-## Content Attributes
-### People
+## Overview
 
-              ID : Customer's unique identifier
+This project focuses on Customer Segmentation using Machine Learning techniques. Customer segmentation helps businesses divide customers into distinct groups based on purchasing behavior and demographic characteristics, enabling more targeted marketing strategies and improved decision-making.
 
-      Year_Birth : Customer's birth year
+The project uses clustering algorithms to identify meaningful customer groups from customer data and visualize the resulting segments.
 
-       Education : Customer's education level
-       
-  Marital_Status : Customer's marital status
+---
 
-          Income : Customer's yearly household income
+## Project Objectives
 
-         Kidhome : Number of children in customer's household
+- Perform Exploratory Data Analysis (EDA)
+- Understand customer behavior patterns
+- Apply data preprocessing techniques
+- Determine the optimal number of customer clusters
+- Implement K-Means Clustering
+- Visualize customer segments
+- Generate business insights from the identified clusters
 
-        Teenhome : Number of teenagers in customer's household
+---
 
-     Dt_Customer : Date of customer's enrollment with the company
+## Dataset
 
-         Recency : Number of days since customer's last purchase
+The dataset contains customer information such as:
 
-        Complain : 1 if the customer complained in the last 2 years, 0 otherwise
+- Customer ID
+- Gender
+- Age
+- Annual Income
+- Spending Score
 
-### Products
+These features are used to discover natural customer groups through unsupervised learning techniques.
 
-        MntWines : Amount spent on wine in last 2 years
-        
-       MntFruits : Amount spent on fruits in last 2 years
-       
- MntMeatProducts : Amount spent on meat in last 2 years
- 
- MntFishProducts : Amount spent on fish in last 2 years
- 
-MntSweetProducts : Amount spent on sweets in last 2 years
+---
 
-    MntGoldProds : Amount spent on gold in last 2 years
+## Technologies Used
 
-### Promotion
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- Jupyter Notebook
 
-NumDealsPurchases: Number of purchases made with a discount
+---
 
-AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise
+## Machine Learning Approach
 
-AcceptedCmp2: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise
+### Data Preprocessing
 
-AcceptedCmp3: 1 if customer accepted the offer in the 3rd campaign, 0 otherwise
+- Handling missing values
+- Feature selection
+- Data normalization/scaling
 
-AcceptedCmp4: 1 if customer accepted the offer in the 4th campaign, 0 otherwise
+### Exploratory Data Analysis
 
-AcceptedCmp5: 1 if customer accepted the offer in the 5th campaign, 0 otherwise
+- Distribution analysis
+- Correlation analysis
+- Customer behavior visualization
 
-   Response : 1 if customer accepted the offer in the last campaign, 0 otherwise
+### Clustering
 
-### Place
+The project uses:
 
-    NumWebPurchases : Number of purchases made through the company’s website
-    
-NumCatalogPurchases : Number of purchases made using a catalogue
+- K-Means Clustering
 
-  NumStorePurchases : Number of purchases made directly in stores
-  
-  NumWebVisitsMonth : Number of visits to company’s website in the last month
+To determine the optimal number of clusters:
+
+- Elbow Method
+
+### Visualization
+
+Customer segments are visualized using scatter plots and cluster distributions to better understand customer characteristics.
+
+---
+
+## Project Workflow
+
+1. Load Dataset
+2. Perform Data Cleaning
+3. Conduct Exploratory Data Analysis
+4. Feature Selection
+5. Scale Features
+6. Determine Optimal K
+7. Train K-Means Model
+8. Visualize Clusters
+9. Interpret Business Insights
+
+---
+
+## Results
+
+The clustering process identifies distinct customer groups with different spending patterns and income levels.
+
+Possible customer segments include:
+
+- High Income – High Spending
+- High Income – Low Spending
+- Average Income – Average Spending
+- Low Income – High Spending
+- Low Income – Low Spending
+
+These insights can help businesses improve:
+
+- Marketing campaigns
+- Customer retention
+- Product recommendations
+- Revenue generation
+
+---
+
+## Sample Output
+
+Customer clusters are visualized through scatter plots where each color represents a unique customer segment.
+
+---
+
+## Future Improvements
+
+- Hierarchical Clustering
+- DBSCAN Clustering
+- RFM Analysis
+- Customer Lifetime Value Prediction
+- Interactive Dashboard using Streamlit or Power BI
+
+---
+
+## Repository Structure
+
+├── Customer Segmentation.html
+├── dataset.csv
+├── README.md
+├── LICENSE
+└── images/
+
